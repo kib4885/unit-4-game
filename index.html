@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <title>
+        Crystal Game
+    </title>
+
+</head>
+<header id="masthead">
+    <div class="container">
+        <img id="headerimg" src="assets/images/Picture1.png">
+    </div>
+</header>
+
+<body>
+
+    <div class="grid-container1">
+        <div>
+            <h3>Random Number: <span id="mainNumber"></span></h3>
+        </div>
+        <div>
+            <h3>Your Total Score: <span id="userTotal"></span></h3>
+        </div>
+
+    </div>
+    <div class="grid-container2">
+
+
+        <section id="wins-losses">
+            <div>
+                <h3> Wins: <span id="wins"></span></h3>
+                <h3> Losses: <span id="losses"></span></h3>
+            </div>
+        </section>
+        <div id="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>The Four crystals to the right have been assign a random numeric value. Clicking each crystal will add to
+                your
+                total score</p>
+            <p>In order to win you must click the crystals until your total number matches that of the Target
+                number.
+                If you select more that the Target Numebr you lose </p>
+            <p>The value of each crystal is given once clicked. The value with reset with each new game.</p>
+        </div>
+
+        <section>
+            <div id="crystals">
+                <table class="container">
+                    <thead>
+                        <tr class=gem-images>
+                            <th><img id="blue-gem" src="assets/images/blue-gem.png" alt="blue-gem" height="130" ;
+                                    width="100"></th>
+                            <th><img id="green-gem" src="assets/images/green-gem.jpg" alt="green-gem" height="125" ;
+                                    width="125"></th>
+                            <th><img id="pink-gem" src="assets/images/pink-gem.png" alt="pink-gem" height="125" ;
+                                    width="125"></th>
+                            <th><img id="purple-gem" src="assets/images/purple-gem.png" alt="purple-gem" height="125" ;
+                                    width="125"></th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/test300.js" type="text/javascript"></script>
+
+</body>
+
+</html>
